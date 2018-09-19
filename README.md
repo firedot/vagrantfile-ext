@@ -1,6 +1,11 @@
 # vagrantfile-ext
 Basic Vagrantfile
 
+## Prerequisites: 
+
+**VirtualBox**
+**Vagrant**
+
 ## Vagrantfile that downloads a box from the VagrantCloud, sets simple config, and installs nginx: 
 
 ````
@@ -17,4 +22,18 @@ config.vm.network "private_network", ip: "192.168.56.56"
 config.vm.network "forwarded_port", guest: 80, host: 8080
 
 
+````
+
+
+## Clone this repo: 
+
+````
+git clone https://github.com/firedot/vagrantfile-ext.git
+
+````
+
+## Go to the cloned repo dir an run the following command: 
+
+````
+vagrant up
 ````
