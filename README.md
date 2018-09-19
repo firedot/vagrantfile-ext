@@ -1,0 +1,2 @@
+# vagrantfile-ext
+Basic Vagrantfile
