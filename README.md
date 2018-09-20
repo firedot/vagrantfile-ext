@@ -29,10 +29,15 @@ config.vm.network "forwarded_port", guest: 80, host: 8080
 
 ````
 git clone https://github.com/firedot/vagrantfile-ext.git
-
 ````
 
-## Go to the cloned repo dir an run the following command: 
+## Change directory: 
+
+````
+cd vagrantfile-ext
+````
+
+## Start the development environment: 
 
 ````
 vagrant up
